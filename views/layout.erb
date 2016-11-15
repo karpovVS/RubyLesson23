@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Barbershop "Shave your monkey, or camel, or beaver O_o"</title>
+		<title>Shave your beaver right now 50% discount</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Bootstrap -->
 		<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,15 +29,15 @@
 			  </div>
 			  <div class="navbar-collapse collapse">
 			    <ul class="nav navbar-nav">
-			      <li><a href="/">About</a></li>
-			      <li><a href="/new">New Post</a></li>
-						<li><a href="/user">User Registration</a></li>
+			      <li><a href="/about">About</a></li>
+			      <li><a href="/visit">Visit our barbershop</a></li>
+			      <li><a href="/contacts">contacts</a></li>
 			    </ul>
 			  </div><!--/.nav-collapse -->
 			</nav>
 
 			<div>
-			      <%if @error && @error.length > 6 then %>
+			      <%if @error && @error.length > 0 then %>
 			          <div class="alert alert-danger"><%=@error%></div>
 			      <% end %>
 			      <%= yield %>

@@ -1,3 +1,4 @@
-leprozorium lesson 28 review
+sinatra-bootstrap-clean
 =======================
-test push -u origin master
+
+Cleaned version of https://github.com/bootstrap-ruby/sinatra-bootstrap
