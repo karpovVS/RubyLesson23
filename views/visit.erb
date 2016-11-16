@@ -3,25 +3,25 @@
 <form action="/visit" method="POST" role="form" > 
   <div class="form-group">
     <label>Ваше имя</label>
-    <input name="username" type="text" class="form-control" placeholder="Ваше имя">
+    <input name="username" type="text" class="form-control zzz" placeholder="Ваше имя">
   </div>
   
   <div class="form-group">
     <label>Номер для связи</label>
-    <input name="contact_phone" type="text" class="form-control" placeholder="Номер для связи">
+    <input id = "bbb" name="contact_phone" type="text" class="form-control" placeholder="Номер для связи">
   </div>
   <div class="form-group">
     
     <div class="form-group">
     <label>Желаемое время оболванивания</label>
-    <input name="visit_time" type="text" class="form-control" placeholder="Желаемое время оболванивания">
+    <input name="visit_time" type="text" class="form-control zzz" placeholder="Желаемое время оболванивания">
   </div>
   <div class="form-group">
 
 <div class="form-group">
     <label>Ваш жопобрейко?</label>
     
-<select name= "barber" class="form-control">
+<select id="aaa" name= "barber" class="form-control">
   <option>Monkey</option>
   <option>Nut</option>
   <option>Badred_neck</option>
@@ -35,5 +35,8 @@
 </form>
 
 <script type="text/javascript">
+$('#aaa').css('background-color', 'red')
+$('#bbb').css('background-color' , 'blue')
+$('.zzz').css('background-color' , 'black') 
 alert('Hello from visit page')
 </script>
